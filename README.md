@@ -14,7 +14,7 @@ A simple, offline stock alert system that:
 ## SDG Alignment
 **SDG 3: Good Health and Well-being** - Ensuring life-saving inhalers are always available in hospitals. 
 
-## Open Source JUSTIFICATION
+## Open Source Justification
 - Free to use, saving hospitals money.
 - Local IT students can fix and improve the system.
 - No expensive license fees for the Sierra Leone government.
