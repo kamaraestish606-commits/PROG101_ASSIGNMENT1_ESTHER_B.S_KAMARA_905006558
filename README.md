@@ -24,7 +24,6 @@ A simple, offline stock alert system that:
 - Accessible to all clinics, even in rural areas.
 - Runs offline on basic computers.
 
-## Repository Contents
 
 
 
