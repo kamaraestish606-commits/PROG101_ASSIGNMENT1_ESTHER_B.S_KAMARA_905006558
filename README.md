@@ -24,6 +24,8 @@ A simple, offline stock alert system that:
 - Accessible to all clinics, even in rural areas.
 - Runs offline on basic computers.
 
+## Repository Contents
+
 
 
 
@@ -35,13 +37,5 @@ A simple, offline stock alert system that:
 - If stock >= 15: **Stock is safe.**
 
 ## Author
-Esther B. S. Kamara
-905006558
-
-
-
-
-
-
-
-
+- Esther B. S. Kamara
+- 905006558
