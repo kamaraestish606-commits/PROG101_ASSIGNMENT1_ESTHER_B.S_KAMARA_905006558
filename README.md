@@ -36,7 +36,13 @@ A simple, offline stock alert system that:
 ## GitHub Evidence 
 
 ## Expected Output
-- If stock 
+- If stock < 15: **WARNING : Low Stock! Reorder immediately.**
+- If stock >= 15: **Stock is safe.**
+
+## Author
+Esther B. S. Kamara
+905006558
+
 
 
 
