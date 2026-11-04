@@ -69,13 +69,7 @@ FUNCTION PrintGoodbyeMessage()
 END FUNCTION
 
 ## Flowchart
-
-
-
-
-
-
-
+<img width="680" height="1492" alt="Untitled Diagram-Page-1 drawio" src="https://github.com/user-attachments/assets/d863cd3d-075d-415b-a904-04c183b5028f" />
 
 ## Expected Output
 - If stock < 15: **WARNING : Low Stock! Reorder immediately.**
