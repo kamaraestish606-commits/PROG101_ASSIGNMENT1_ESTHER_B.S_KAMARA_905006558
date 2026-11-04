@@ -24,7 +24,52 @@ A simple, offline stock alert system that:
 - Accessible to all clinics, even in rural areas.
 - Runs offline on basic computers.
 
-## Repository Contents
+## Pseudocode
+START 
+              // DECLARE CONSTANTS AND VARIABLES
+    CONSTANT MIN_SAFE_STOCK = 15
+    VARIABLE currentStock AS INTEGER
+    VARIABLE checkAnother AS STRING
+
+    // WELCOME MESSAGE
+    PRINT "Welcome to the Asthma Inhaler Stock Alert System"
+    PRINT "------------------------------------------------"
+
+    // REPETITION STRUCTURE - WHILE LOOP
+    SET checkAnother = "YES"
+
+    WHILE checkAnother == "YES" DO
+
+        // INPUT
+        PRINT "Enter the number of inhalers currently in the ward:"
+        INPUT currentStock
+
+        // DECISION STRUCTURE - IF/ELSE
+        IF currentStock < MIN_SAFE_STOCK THEN
+            PRINT "WARNING: Low Stock! Reorder immediately."
+        ELSE
+            PRINT "Stock is safe. You have ", currentStock, " inhalers."
+        ENDIF
+
+        // ASK TO REPEAT
+        PRINT "Do you want to check another ward? (YES or NO)"
+        INPUT checkAnother
+
+    ENDWHILE
+
+    // CALL FUNCTION
+    CALL PrintGoodbyeMessage()
+
+END
+// FUNCTION DEFINITION
+FUNCTION PrintGoodbyeMessage()
+
+    PRINT "Thank you for keeping patients safe. System closing."
+
+END FUNCTION
+
+## Flowchart
+
 
 
 
